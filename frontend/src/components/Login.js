@@ -4,6 +4,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./Login.css"; // Ensure this CSS file is linked correctly
 
+const baseURL = "https://eagleeye-news-website-main.onrender.com";
+
 const Login = ({ handleLogin }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -12,7 +14,7 @@ const Login = ({ handleLogin }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/login", {
+      const response = await axios.post(`${baseURL}/api/auth/login`, { // Use baseURL here
         email,
         password,
       });
