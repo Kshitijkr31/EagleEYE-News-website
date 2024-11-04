@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Define your API routes
-const authRoutes = require('../routes/auth'); // Assuming you put the route in a separate file
+const authRoutes = require('./routes/auth'); // Assuming you put the route in a separate file
 app.use('/api/auth', authRoutes);
 
 // Start the server
