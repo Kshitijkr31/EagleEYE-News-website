@@ -1,0 +1,43 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+      {
+        "source": {
+          "id": "bbc-news",
+          "name": "BBC News"
+        },
+        "author": "BBC News",
+        "title": "Poland's PM delivers stark warning ahead of EU elections",
+        "description": "Donald Tusk is urging Poles to vote for his coalition, to best protect against Russian aggression.",
+        "url": "https://www.bbc.co.uk/news/articles/c88804wnn2go",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/dc50/live/e0c0dd50-21c3-11ef-a951-c529a701a554.jpg",
+        "publishedAt": "2024-06-04T06:37:16.3400209Z",
+        "content": "At the main crossing point, the word RUSSIA is clearly spelled out in red letters on the other side. Every busload of passengers is screened meticulously using a sniffer dog before it can pass.\r\nSecu… [+1740 chars]"
+      },
+      {
+        "source": {
+          "id": "google-news-in",
+          "name": "Google News (India)"
+        },
+        "author": "NDTV",
+        "title": "AP Election Results 2024 LIVE Updates: BJP Crosses Majority Mark In Odisha, TDP's Comeback In Andhra - NDTV",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3Lm5kdHYuY29tL2luZGlhLW5ld3MvZWxlY3Rpb24tcmVzdWx0cy0yMDI0LWxpdmUtb2Rpc2hhLWFuZGhyYS1wcmFkZXNoLWFzc2VtYmx5LWVsZWN0aW9ucy1yZXN1bHRzLXRvZGF5LTU4MDg4OTHSAX9odHRwczovL3d3dy5uZHR2LmNvbS9pbmRpYS1uZXdzL2VsZWN0aW9uLXJlc3VsdHMtMjAyNC1saXZlLW9kaXNoYS1hbmRocmEtcHJhZGVzaC1hc3NlbWJseS1lbGVjdGlvbnMtcmVzdWx0cy10b2RheS01ODA4ODkxL2FtcC8x?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-06-04T06:26:36+00:00",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news-uk",
+          "name": "Google News (UK)"
+        },
+        "author": "Financial Times",
+        "title": "India's Narendra Modi on course for election win - Financial Times",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiP2h0dHBzOi8vd3d3LmZ0LmNvbS9jb250ZW50LzFkZTQ5Y2I5LWRiMmMtNDQ2Zi04ZWU0LTliZGJiNGE3NjI1YtIBAA?oc=5",
+        "urlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.news18.com%2Felections%2Fteesri-baar-narendra-modi-sarkar-but-this-time-with-a-coalition-challenge-8921545.html&psig=AOvVaw36CK0uteKhc-LQKsZuhdj7&ust=1717660154079000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOig7O38w4YDFQAAAAAdAAAAABAE",
+        "publishedAt": "2024-06-04T06:01:52+00:00",
+        "content": null
+      }

@@ -1,0 +1,89 @@
+/* Display hamburger icon only on screens below 992px */
+.hamburger-menu {
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+  .navbar {
+    background-image: url('https://t3.ftcdn.net/jpg/04/50/68/44/360_F_450684481_Tx4TqplKp8AeEFgo3rHsCEf71sHBe9F0.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hamburger-menu a {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .collapse.navbar-collapse {
+    display: none;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+  
+  /* src/components/Login.css or wherever relevant */
+.logout-button {
+  background-color: #4158d0;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c850c0;
+}
+
+  /* Mobile styles */
+  @media only screen and (max-width: 768px) {
+    .App-header {
+      font-size: 15px; /* Adjust font size for mobile */
+    }
+   
+    .navbar {
+      background-image: url('https://t3.ftcdn.net/jpg/04/50/68/44/360_F_450684481_Tx4TqplKp8AeEFgo3rHsCEf71sHBe9F0.jpg');
+    }
+  
+    .hamburger-menu {
+      margin-top: -2vw;
+      display: flex;
+      font-size: 10vw;
+      cursor: pointer;
+    }
+  
+    .collapse.navbar-collapse.show {
+      display: block;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-nav .nav-item {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem 0;
+    }
+  }
+  
